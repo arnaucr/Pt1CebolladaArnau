@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="64dp"
+    android:paddingTop="200dp"
+    android:paddingRight="64dp"
+    android:paddingBottom="64dp"
+    tools:context=".Principal">
+
+    <EditText
+        android:id="@+id/nomUsuari"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="                                              "
+        android:inputType="textPersonName"
+
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="                                              "
+
+        android:inputType="textPassword"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnBoto"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:hint="Entra"
+            android:text="@string/Entra" />
+
+        <Button
+            android:id="@+id/btnBoto2"
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:text="@string/nouUsuari" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnBoto3"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="@string/Ajuda"
+        android:onClick="Ajuda"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pt1CebolladaArnau</string>
+    <string name="Entra">Login</string>
+    <string name="nouUsuari">Sign Up</string>
+    <string name="Ajuda">Help</string>
+</resources>
